@@ -1,8 +1,4 @@
-variable "rgname" {
-}
 
-variable "location" {
-}
 
 variable "ip_names" {
     description = "ip names list"

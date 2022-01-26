@@ -1,5 +1,0 @@
-variable "rgname" {
-}
-
-variable "location" {
-}
