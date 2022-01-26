@@ -1,4 +1,15 @@
 
+variable "rgname" {
+    description = "rgname"
+    type = string
+
+}
+variable "location" {
+    description = "location"
+    type = string
+
+}
+
 
 variable "ip_names" {
     description = "ip names list"

@@ -5,8 +5,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "pip_ads_dev_001"
-  location = "eastus"
+  name     = var.rgname
+  location = var.location
 }
 
 resource "azurerm_public_ip" "example" {

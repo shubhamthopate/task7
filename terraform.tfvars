@@ -1,3 +1,5 @@
+rgname = "pip_ads_dev_001"
+location = "eastus"
 ip_names = ["pip_ads_dev_001","pip_ads_dev_002","pip_ads_dev_003","pip_ads_dev_004"]
 sku_list = "Standard"
 sku_tier = "Regional"

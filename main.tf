@@ -14,5 +14,7 @@ module "module1" {
  az = var.az
  ip_version = var.ip_version
  idle_timeout = var.idle_timeout
+ rgname = var.rgname
+ location = var.location
  
 }
