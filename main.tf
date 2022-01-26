@@ -16,5 +16,17 @@ module "module1" {
  idle_timeout = var.idle_timeout
  rgname = var.rgname
  location = var.location
- 
+}
+
+module "module2" {
+ source = "./modules/module2"
+ ip_names2 = var.ip_names2
+ sku_list2 = var.sku_list2
+ sku_tier2 = var.sku_tier2
+ allocation_method2 = var.allocation_method2
+ az2 = var.az2
+ ip_version2 = var.ip_version2
+ idle_timeout2 = var.idle_timeout2
+ rgname2 = var.rgname2
+ location2 = var.location2
 }
